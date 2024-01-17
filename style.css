@@ -9,3 +9,25 @@
     background-color: gray;
     height:500px;
  }
+
+ .car1, .car2, .car3 {
+    margin-top: 250px;
+    margin-left: clamp(10px, 25%, 200px);
+    margin-right: clamp(10px, 35%, 200px);
+ }
+
+ .headp {
+    width: 350px;
+ }
+
+ .headers {
+    margin-left: clamp(2px, 20%, 350px);
+    margin-right: clamp(2px, 20%, 350px);
+    margin-top: 50px;
+    padding-bottom: 80px;
+    border-bottom: 1px lightgrey solid;
+ }
+
+ .allh {
+    margin-bottom: 40px;
+ }
