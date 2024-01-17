@@ -31,3 +31,26 @@
  .allh {
     margin-bottom: 40px;
  }
+
+ .f1h4 {
+    max-width: 650px;
+ }
+
+ .f1h {
+    max-width: 500px;
+ }
+
+ .featurette {
+    margin-top: 100px;
+ }
+
+ div h1, div h4 {
+    margin-right: 30px;
+ }
+
+ .fhead {
+    border-bottom: 1px lightgrey solid;
+    padding-bottom: 100px;
+ }
+
+ 
