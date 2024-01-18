@@ -87,3 +87,14 @@ h1, h4 {
     color: gray;
 }
 
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.searchbox {
+    margin-right: 20px;
+}
+
+@media (max-width: 400) {
+
+}
