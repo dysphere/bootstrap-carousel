@@ -58,3 +58,12 @@ h1, h4 {
     margin-top: clamp(10px, 10%, 75px);
     margin-bottom: clamp(2px, 1%, 10px);
 }
+
+.bottomtext {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.d-flex div a {
+    margin-left: 20px;
+}
