@@ -11,9 +11,23 @@
  }
 
  .car1, .car2, .car3 {
-    margin-top: 250px;
-    margin-left: clamp(10px, 25%, 200px);
-    margin-right: clamp(10px, 35%, 200px);
+    margin-top: clamp(150px, 40%, 250px);
+    margin-left: clamp(10px, 10%, 200px);
+    margin-right: clamp(10px, 10%, 200px);
+ }
+
+ .car1 div {
+    margin-left: clamp(0px, 2%, 100px);
+    margin-right: clamp(10px, 20%, 100px);
+ }
+
+ .car2 div {
+    margin-left: clamp(0px, 2%, 50px);
+    margin-right: clamp(10px, 20%, 75px);
+ }
+
+ .car3 div {
+    margin-right: clamp(0px, 15%, 300px);
  }
 
  .headp {
@@ -67,3 +81,9 @@ h1, h4 {
 .d-flex div a {
     margin-left: 20px;
 }
+
+.form-control {
+    background-color: white;
+    color: gray;
+}
+

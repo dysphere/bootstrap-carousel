@@ -9,7 +9,25 @@
 </head>
 <body>
     <div class="container-fluid">
-    <nav></nav>
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Carousel</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2 inputsearch text-secondary" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
     <div id="carouselExample" class="carousel slide container-fluid" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -18,19 +36,31 @@
           </div>
         <div class="carousel-inner">
           <div class="carousel-item active car1">
+            <div class="container d-flex flex-column align-items-start">
             <div><h1 class="text-white text-left">Example headline.</h1></div>
             <div><p class="text-white text-left">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p></div>
+            <div class="">
             <button type="button" class="btn btn-primary">Sign up today</button>
+            </div>
+            </div>
           </div>
           <div class="carousel-item car2">
+            <div class="container d-flex flex-column align-items-center">
             <div><h1 class="text-white text-center">Another example headline.</h1></div>
             <div><p class="text-white text-center">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p></div>
+            <div>
             <button type="button" class="btn btn-primary">Learn more</button>
+            </div>
+            </div>
           </div>
           <div class="carousel-item car3">
-            <div><h1 class="text-white text-right">One more for good measure.</h1></div>
-            <div><p class="text-white text-right">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p></div>
+            <div class="container d-flex flex-column align-items-end">
+            <div><h1 class="text-white text-end">One more for good measure.</h1></div>
+            <div><p class="text-white text-end">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p></div>
+            <div class="">
             <button type="button" class="btn btn-primary">Browse gallery</button>
+            </div>
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
