@@ -21,11 +21,9 @@
  }
 
  .headers {
-    margin-left: clamp(10px, 20%, 350px);
-    margin-right: clamp(10px, 20%, 350px);
+    margin-left: clamp(150px, 20%, 350px);
+    margin-right: clamp(150px, 20%, 350px);
     margin-top: 50px;
-    padding-bottom: 80px;
-    border-bottom: 1px lightgrey solid;
  }
 
  .allh {
@@ -37,7 +35,6 @@
  }
 
  .fhead {
-    border-bottom: 1px lightgrey solid;
     padding-bottom: 100px;
  }
 
@@ -50,6 +47,11 @@ h1, h4 {
     border-bottom: 1px lightgrey solid;
     margin-left: clamp(2px, 15%, 300px);
     margin-right: clamp(2px, 15%, 300px);
+}
+
+.fbordtop {
+    border-top: 1px lightgrey solid;
+    padding-top: 150px;
 }
 
 .ftext {
